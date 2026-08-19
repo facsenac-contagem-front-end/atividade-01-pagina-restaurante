@@ -1,4 +1,4 @@
-# 📌 [DW] EXERCÍCIO 1 - Criando um Cardápio com Box Model
+# 📌 ATIVIDADE 01 - Criando um Cardápio
 
 💡 **Objetivo:**  
 Você deve construir uma página web simples com um **cardápio de restaurante fictício**, organizando os itens do cardápio utilizando o CSS. Para isso, você vai usar propriedades como **border, width e height** para estruturar o layout de forma adequada.
