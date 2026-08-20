@@ -1,0 +1,57 @@
+body{
+    background-color:#F4EFEA;
+
+}
+
+
+h1{
+    font-family: "Petit Formal Script", cursive;
+    text-align: center;
+    color:#3E2723;
+}
+
+
+h2{
+    font-family: "Petit Formal Script", cursive;
+    text-align: center;
+}
+
+
+p{
+    text-align: left;
+}
+
+
+img{
+    width: 2400px;  
+    height: 400px;
+}
+
+
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #f4f4f4;
+}
+
+.logo img {
+  height: 100px;
+  width: 200px;
+}
+
+.menu {
+  display: flex;
+  gap: 70px;
+  margin-right: 600px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
