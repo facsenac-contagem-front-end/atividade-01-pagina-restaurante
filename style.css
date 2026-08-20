@@ -1,0 +1,20 @@
+h1{
+    background-color: rgb(162, 216, 169);
+    text-align: center;
+    color: white;
+}
+div{
+    color: white;
+    background-color: rgb(162, 216, 169);
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px rgb(9, 58, 8) solid;
+    height: 400px;
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
