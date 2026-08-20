@@ -1,0 +1,35 @@
+body{
+    margin: 25px;
+    padding: 50px;
+}
+    
+    h1 {
+    font-family: "Emilys Candy", serif;
+}
+    
+    h3 {
+  font-family: "Crafty Girls", cursive;
+  color:#a1743c;
+}
+
+.img {
+    margin: 0 auto;
+    display: flex;
+    width: 40vh;
+    height: 50vh;
+    border: none;
+    border-radius: 20px;
+    justify-content: center;
+    
+    
+}
+
+.bloco {
+    border: 3px solid #ffe4c4;;
+    border-radius: 20px;
+    background-color: #ffe4c4;
+    justify-content: center;
+    width: 70vh;
+    height: 70vh;
+    
+}
