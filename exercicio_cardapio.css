@@ -1,0 +1,36 @@
+
+H3 {
+    color:rgb(243, 36, 36); /* Cor Título */
+    text-align: center;  /* Centralizar Título */
+}
+
+/* 1. Estilo do container geral (fora dos cards) */
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* espaçamento (espaço vazio) entre linhas e colunas */
+    justify-content: center; /* Centralizar card */
+}
+
+/* 2. Estilo compartilhado por TODOS os cards */
+.card {
+    
+    color: rgb(255, 255, 255); /* Cor texto card */
+    background: rgb(63, 174, 182); /* Fundo card */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* font */
+    border: 3px black solid; /* Tamanho e cor borda */
+    font-size: 20px; /* Tamanho font */
+    width: 300px; /* Largura */
+    height: 200px; /* Altura */
+    display: inline-flex; /* Centralizar texto*/
+    flex-direction: column;
+    align-items: center;  /* Centralizar texto da esquerda pra direita*/
+    font-weight: bold; /* Negrito */
+    
+}
+
+.card img {
+    max-width: 100%;      /* Nunca ultrapassa a largura do card */
+    max-height: 70%;     /* Nunca ultrapassa a altura do card (deixa espaço pro texto) */
+    object-fit: contain; /* Mantém a proporção original da imagem, sem distorcer */
+}
