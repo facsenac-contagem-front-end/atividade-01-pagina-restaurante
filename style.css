@@ -1,0 +1,30 @@
+h1{
+     font-family: "Caveat", cursive;
+     text-align: center;
+     font-size: 100px;
+     color: #d4af37
+     
+}
+
+h2{
+     font-family: "Caveat", cursive;
+     text-align: center;
+     font-size: 30px;
+     color: #d4af37;
+     margin-top: -75px;
+
+}
+
+h3{
+      color: #d4af37;
+}
+
+body{
+     background-color: 
+}
+
+img {
+    width: 300px; /* Define a largura da imagem */
+    border-radius: 8px; /* Deixa as bordinhas levemente arredondadas (fica bem chique!) */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombrinha elegante */
+}
