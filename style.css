@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(0, 0, 0)
+    ;
+}
+
+
+div{
+    margin-top: px;
+    display: inline-block;
+    margin-right: 76px;
+    font-size: 19px;
+    color: aliceblue;
+}
+
+
+span {
+    display: block;
+    margin-top: 9px;
+    
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 100px;
+    color: aliceblue;
+     
+}
+
+img {
+    width: 300px;
+    
+}
+
