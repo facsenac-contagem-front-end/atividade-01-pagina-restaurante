@@ -1,0 +1,17 @@
+h1{
+    background-color: rgb(196, 81, 28);
+    color: antiquewhite;
+    text-align: center;
+}
+div{
+    background-color: rgb(187, 93, 64);
+     text-align: center;
+     width: 450px;
+     height: 350px;
+     display: inline-block;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
