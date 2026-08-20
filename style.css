@@ -1,0 +1,9 @@
+div {
+    border: 1px solid red;
+    display: inline-block;
+}
+
+span {
+    border: 1px solid blue;
+    display: block;
+}
