@@ -1,57 +1,81 @@
-body{
-    background-color:#F4EFEA;
-
-}
-
-
-h1{
-    font-family: "Petit Formal Script", cursive;
-    text-align: center;
-    color:#3E2723;
-}
-
-
-h2{
-    font-family: "Petit Formal Script", cursive;
-    text-align: center;
-}
-
-
-p{
-    text-align: left;
-}
-
-
-img{
-    width: 2400px;  
-    height: 400px;
-}
-
-
 
 .cabecalho {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 30px;
-  background-color: #f4f4f4;
+    background-color: #FCFAF5; /* Fundo creme do menu */
+    display: flex; /* Coloca logo de um lado e menu do outro */
+    justify-content: space-between; /* Espalha as coisas para as pontas */
+    align-items: center; /* Alinha tudo no centro verticalmente */
+    padding: 15px 40px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Sombrinha leve embaixo do menu */
+    margin-bottom: 40px; /* Espaço entre o menu e as fotos dos pratos */
+    margin-top: -20px; /* Puxa o menu para colar no topo, compensando o padding do body */
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
-.logo img {
-  height: 100px;
-  width: 200px;
+/* Arrumando o tamanho da Logo */
+.cabecalho img {
+    width: 100px; /* Diminui a imagem da logo. Você pode aumentar ou diminuir esse número! */
+    height: auto;
 }
 
-.menu {
-  display: flex;
-  gap: 70px;
-  margin-right: 600px;
-}
-
+/* Arrumando os Links */
 .menu a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+    text-decoration: none; /* Tira o sublinhado roxo padrão */
+    color: #3E2723; /* Cor dos links */
+    margin-left: 25px; /* Espaçamento entre os links */
+    font-weight: bold;
 }
 
+/* Efeito ao passar o mouse */
+.menu a:hover {
+    color: #C05333;
+}
 
+/* Botão de Delivery com destaque */
+.btn-delivery {
+    background-color: #C05333; 
+    color: white !important; 
+    padding: 8px 15px;
+    border-radius: 20px; 
+}
+
+/* Configuraçãêo básica para a página toda usar a fonte que voce importou */
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #F4EFEA; /* Bege suave pro fundo */
+    margin: 0;
+    padding: 20px;
+}
+
+/* 1. O SEGREDO PARA FICAR LADO A LADO */
+.pratos {
+    display: flex; /* Coloca os itens em linha reta */
+    justify-content: center; /* Centraliza no meio da tela */
+    gap: 30px; /* Espaço entre os pratos */
+    flex-wrap: wrap; /* Se a tela for pequena, joga pra linha de baixo */
+}
+
+/* 2. O ESTILO DE CADA CARTÃO DE PRATO */
+.prato {
+    background-color: #FFFFFF; /* Fundo branco pro cartão */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px;
+    border-radius: 10px; /* Deixa as pontas arredondadas */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Dá uma sombra bem leve */
+    width: 250px; /* Largura padrão do cartão */
+}
+
+/* 3. PADRONIZANDO AS FOTOS */
+.prato img {
+    width: 100%; /* Faz a foto ocupar toda a largura do cartão */
+    height: 200px; /* Altura padrão para todas as fotos */
+    object-fit: cover; /* Corta a foto sem espremer ou deformar */
+    border-radius: 8px; /* Arredonda as pontas da foto também */
+}
+
+/* 4. DESTAQUE NO PREÇO */
+.prato p {
+    color: #C05333; /* Cor terracota para o preço */
+    font-weight: bold;
+    font-size: 18px;
+}

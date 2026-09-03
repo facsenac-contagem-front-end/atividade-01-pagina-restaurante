@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
-<!-- Logo icone da aba-->
-	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
-    <title>Bom demais Sô</title>
-
-
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bom Demais Sô</title>
+  <!-- logo barra título -->
+   <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <!-- Link para o arquivo CSS separado -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Importando fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="cabecalho">
-  <div class="logo">
-    <a href="#"><img src="logo.png" alt="Nome da Empresa"></a>
+        <img src="logo.png" alt="">
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="#">Onde Estamos</a>
+            <a href="#">Cardápio</a>
+            <a href="#" class="btn-delivery">Delivery</a>
+        </nav>
+    </header>
+  <!-- Caixa principal que segura todos os pratos -->
+<div class="pratos">
+        <!-- Cartão do Prato 1 -->
+        <div class="prato">
+            <img src="prato1.png" alt="Prato 1">
+            <h3>Filé Grelhado Saudável</h3>
+            <p class="descricao-prato">Delicioso filé de frango grelhado, acompanhado de arroz branco e mix de legumes na manteiga.</p>
+            <p>R$ 25,00</p>
+        </div>
+        <!-- Cartão do Prato 2 -->
+        <div class="prato">
+            <img src="prato2.jpg" alt="Prato 2">
+            <h3>PF Bom Demais</h3>
+            <p class="descricao-prato">Iscas de carne acebolada, arroz soltinho e aquela porção caprichada de batata frita.</p>
+            <p>R$ 30,00</p>
+        </div>
+        <!-- Cartão do Prato 3 -->
+        <div class="prato">
+            <img src="prato3.png" alt="Prato 2">
+            <h3>Frango Assado da Roça</h3>
+            <p class="descricao-prato">Suculento frango assado com ervas frescas e pele douradinha. Acompanha batatas rústicas, cenouras assadas, brócolis e ervilhas.
+            <p>R$ 35,00 </p>
+        </div>
   </div>
-  <nav class="menu">
-    <a href="#">Início</a>
-    <a href="#">Conheça a gente</a>
-    <a href="cardapio.html">Cardápio</a>
-    <a href="#">Contato</a>
-  </nav>
-</header>
-    <img src="slogan.jpg" alt="">
-    <h1>Boas-Vindas</h1>
-    <p>A gente costuma dizer que comida boa não precisa de segredo, precisa de afeto.
-     O Bom Demais Sô nasceu da nossa paixão por reunir a família em volta do fogão à lenha, 
-     onde a prosa era boa e a panela nunca estava vazia...</p>
-     <p>Decidimos trazer esse aconchego para o dia a dia de quem corre na cidade, 
-     mas não abre mão daquele almoço com gostinho de infância. Aqui, cada ingrediente
-     é escolhido a dedo, o tempero é fresco e o resultado... uai, é bom demais sô!</p>
+  <p></p>
+  <div class="pratos">
+        <!-- Cartão do Prato 1 -->
+        <div class="prato">
+            <img src="suco1.jpg" alt="Prato 1">
+            <h3>Jarra de Bebida(Suco ou Refrigerante)</h3>
+            <p class="descricao-prato">Perfeito para partilhar à mesa! Escolha entre o nosso suco natural feito na hora com frutas frescas ou o refrigerante bem gelado.</p>
+            <p>R$ 16,00</p>
+        </div>
+        <!-- Cartão do Prato 2 -->
+        <div class="prato">
+            <img src="suco2.jpg" alt="Prato 2">
+            <h3>Copo de Suco</h3>
+            <p class="descricao-prato">Refrescante e preparado na hora com polpa de fruta selecionada. Sabor autêntico e caseiro</p>
+            <p>R$ 8,00</p>
+        </div>
+        <!-- Cartão do Prato 3 -->
+        <div class="prato">
+            <img src="refri1.jpg" alt="Prato 2">
+            <h3>Copo de Refrigerante</h3>
+            <p class="descricao-prato">Bebida geladinha, servida no copo com cubos de gelo para matar a sede.</p>
+            <p>R$ 10,00 </p>
+        </div>
+  </div>
 </body>
 </html>
-
-<!-- closeup-roasted-meat-with-sauce-vegetables-fries-plate-table prato 2
-frango-grelhado-com-arroz-e-vegetais-cozidos-no-vapor prato 1  -->
