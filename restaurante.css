@@ -1,0 +1,112 @@
+:root {
+    --cor-principal: rgb(255, 0, 0);
+    --cor-secundaria: rgb(221, 250, 251);
+    --cor-texto: rgb(0, 0, 0);
+    }
+    
+    body {
+    background-color: var(--cor-secundaria);
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: 5px rgb(255, 0, 0) solid;
+    height: 80;
+    width: 150;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    }
+    
+    header {
+    background-color: var(--cor-principal);
+    text-align: center;
+    padding: 1em;
+    border: 5px rgb(255, 255, 255) solid;
+    }
+    
+    h1 {
+    color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    
+    h2 {
+    color: rgb(66, 0, 0);
+    }
+
+    h3{
+        color: rgb(0, 0, 0);
+    }
+    h4{
+        color: red;
+    }
+    a {
+    color: var(--cor-texto);
+    text-decoration: none;
+    }
+    
+    p {
+    color: var(--cor-texto);
+    }
+    li{
+        color: rgb(255, 81, 0);
+    }
+    .titulo {
+    text-align: center;
+    text-transform: uppercase;
+    color: chartreuse;
+    font-size: 23px;
+    }
+    
+    .titulo2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    font-size: 20px;
+    }
+    
+    .titulo3 {
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+    img{
+        border: 10px;
+        border-color: black;
+    }
+
+    @media  (max-width: 800px) {
+    body {
+    background-color: black;
+    color: white;
+    }
+    header {
+    background-color: rgb(172, 2, 2);
+    }
+    h1 {
+    color: rgb(175, 255, 125);
+    }
+    p {
+    color: rgb(128, 128, 128);
+    }
+    .titulo2 {
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(252, 254, 255);
+        background-color: rgb(255, 0, 0);
+        font-size: 20px;
+        }
+    }
+    section{
+    border: 10px rgb(255, 255, 255) solid;
+    height: 80;
+    width: 150;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    }
