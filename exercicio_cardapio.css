@@ -1,36 +1,99 @@
 
-H3 {
-    color:rgb(243, 36, 36); /* Cor Título */
-    text-align: center;  /* Centralizar Título */
+h2 {
+    color: #a02500;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0;
+}
+
+p {
+    color: #a02500;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px 0;
 }
 
 /* 1. Estilo do container geral (fora dos cards) */
 .catalogo {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* espaçamento (espaço vazio) entre linhas e colunas */
-    justify-content: center; /* Centralizar card */
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
 }
 
 /* 2. Estilo compartilhado por TODOS os cards */
 .card {
-    
-    color: rgb(255, 255, 255); /* Cor texto card */
-    background: rgb(63, 174, 182); /* Fundo card */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* font */
-    border: 3px black solid; /* Tamanho e cor borda */
-    font-size: 20px; /* Tamanho font */
-    width: 300px; /* Largura */
-    height: 200px; /* Altura */
-    display: inline-flex; /* Centralizar texto*/
+    color: #ffffff;
+    background: linear-gradient(180deg, #e9ae9c 0%, #a02500 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    width: 300px;
+    min-height: 260px;
+    display: flex;
     flex-direction: column;
-    align-items: center;  /* Centralizar texto da esquerda pra direita*/
-    font-weight: bold; /* Negrito */
-    
+    align-items: stretch;
+    justify-content: space-between;
+    font-weight: bold;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
-.card img {
-    max-width: 100%;      /* Nunca ultrapassa a largura do card */
-    max-height: 70%;     /* Nunca ultrapassa a altura do card (deixa espaço pro texto) */
-    object-fit: contain; /* Mantém a proporção original da imagem, sem distorcer */
+.card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.25);
+}
+
+/* Área da imagem dentro do card */
+.Imagem {
+    width: 100%;
+    height: 60%;
+   
+}
+
+.Agnalote {
+    background-image: url("Imagem/Agnalote.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.Caixa2 {
+    background-image: url("Imagem/Bife\ com\ batata\ frita.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.Imagem img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.Produto {
+    padding: 10px 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.Nome_pedido {
+    margin: 0;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.card p {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .catalogo { gap: 12px; }
+    .card { width: 90%; }
 }
