@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/img/logo_VovoAna_favicon.png">
     <title>Vovó Ana - Restaurante</title>
+
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -12,45 +15,48 @@
     <header>
         <!-- LOGO -->
         <div class="logo">
-            <img src="logo_VovoAna.png" alt="Logo do site Vovó Ana">
-            <div class="site-name">Vovó Ana</div>
-            <p>Comida Caseira</p>
+            <img src="./assets/img/logo_VovoAna_site.png" alt="Logo do site Vovó Ana">
+
+            <div class="logo-text">
+                <h2>Vovó Ana</h2>
+                <p>Comida Caseira</p>
+            </div>
         </div>
         <!-- NAVEGAÇÃO -->
         <nav>
             <ul>
-                <li><a href="">Cardápio</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Sobre</a></li>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <!--APRESENTAÇÃO-->
-    <div class="hero-section">
+    <!--PRINCIPAIS PRATOS-->
+    <div class="aba_pratos_do_dia">
         <div class="titulo">
-            <p>Conheça a Vovó Ana!
-            <p>
-        </div>
-        <div class="subtitulo">
-            <h2>Sabores que abraçam</h2>
-        </div>
-        <div class="slogan">
-            <p>O verdadeiro sabor da cozinha mineira</p>
-        </div>
-
-        <!-- BOTÃO -->
-        <div class="botao-hero"><a href="">Ver cardápio completo</a></div>
-
-        <!-- IMAGEM APRESENTAÇÃO -->
-        <div img_hero>
-            <img src="" alt="">
+            <h2>PRATOS DO DIA</h2>
         </div>
     </div>
-    <!--PRINCIPAIS PRATOS-->
     <div class="pratos_do_dia">
-        <h2>PRATOS DO DIA</h2>
-
+        <div class="card">
+            <img src="./assets/img/frango-com-quiabo.png" alt="Prato 1">
+            <h3>Frango com quiabo</h3>
+            <p>Descrição do prato 1.</p>
+        </div>
+        <div class="card">
+            <img src="prato2.jpg" alt="Prato 2">
+            <h3>Prato 2</h3>
+            <p>Descrição do prato 2.</p>
+        </div>
+        <div class="card">
+            <img src="prato3.jpg" alt="Prato 3">
+            <h3>Prato 3</h3>
+            <p>Descrição do prato 3.</p>
+        </div>
+    </div>
+    
 </body>
 
 </html>

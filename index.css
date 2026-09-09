@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #111111;
+}
+
+
+/* ==== CABEÇALHO ==== */
+header {
+    background: linear-gradient(to right, #672205, #AF6E28);
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ==== LOGO ==== */
+.logo {
+    height: 80px;
+    width: 300px;
+    /* Deixa os itens lado a lado */
+    display: flex;
+    /* Centraliza o texto verticalmente com a imagem */
+    align-items: center;
+    /* Cria um espaço de 15 pixels entre a imagem e o texto */
+    gap: 10px;
+}
+.logo img {
+    height: 70px;
+    width: 90px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.logo .logo-text {
+    justify-content: center;
+    color: #ffffff;
+    white-space: nowrap;
+    align-items: center;
+
+}
+.logo h2 {
+    font-size: 24px;
+    margin: 0;
+}
+.logo p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* ==== NAVEGAÇÃO ==== */
+nav {
+    margin-right: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    color: #ffffff;
+    /* Remove as bolinhas */
+    list-style: none;
+    /* Distância entre os links */
+    gap: 20px;
+    /* Remove o sublinhado azul padrão */
+    text-decoration: none;
+    display: flex;
+}
+
+
+/* APRESENTAÇÃO */
+
+
+
+
+/* PRATOS PRINCIPAIS */
+.aba_pratos_do_dia {
+    background-color: #AF6E28;
+    height: 60px;;
+    border-radius: 10px;
+    margin: 20px;
+
+    text-align: left;
+}
+
+.titulo h2 {
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    /* Alinha na horizontal */
+    justify-content: left;
+    margin-left: 20px;
+    align-items: center;
+    /* Alinha na vertical */
+    height: 60px;
+    width: 250px;
+}
+
+.pratos_do_dia {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #AF6E28;
+    margin: 20px;
+    height: 100px;
+}
+
