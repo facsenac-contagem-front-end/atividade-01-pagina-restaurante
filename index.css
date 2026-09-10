@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -7,7 +13,7 @@ body {
 
 /* ==== CABEÇALHO ==== */
 header {
-    background: linear-gradient(to right, #672205, #AF6E28);
+    background: linear-gradient(to right, #672205 60%, #AF6E28);
     height: 80px;
     width: 100%;
     align-items: center;
@@ -105,6 +111,32 @@ nav a {
     border-radius: 10px;
     border: 1px solid #AF6E28;
     margin: 20px;
-    height: 100px;
+    height: 500px;
+    display: flex;
+    padding: 20px;
 }
 
+.pratos_do_dia .card{
+    height: 350px;
+    width: 200px;
+    background-color: #672205;
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.pratos_do_dia img{
+    height: 180px;
+    width: 200px;
+    border-radius: 20px;
+}
+.pratos_do_dia .botao{
+    height: 38px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #AF6E28;
+    color: #ffffff;
+    text-align: center;
+    
+
+}
