@@ -1,5 +1,7 @@
 
-h2 {
+
+
+h1 {
     color: #a02500;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,10 +32,9 @@ p {
     border: 2px solid #ffffff;
     font-size: 18px;
     width: 300px;
-    min-height: 260px;
+    min-height: 310px;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
     justify-content: space-between;
     font-weight: bold;
     border-radius: 20px;
@@ -54,17 +55,52 @@ p {
    
 }
 
+/* Início Imagens Cards */
+
 .Agnalote {
     background-image: url("Imagem/Agnalote.webp");
     background-position: center;
     background-size: cover;
 }
 
-.Caixa2 {
-    background-image: url("Imagem/Bife\ com\ batata\ frita.webp");
+.Arroz_de_polvo{
+    background-image: url("Imagem/Arroz_de_polvo.webp");
     background-position: center;
     background-size: cover;
 }
+
+.Carne_com_torresmo{
+    background-image: url("Imagem/Carne_com_torresmo.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.Cacio_e_Pepe{
+    background-image: url("Imagem/Cacio_e_Pepe.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.Risoto_camarão{
+    background-image: url("Imagem/Risoto_camarão.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.Lunette_bufala_e_parma{
+    background-image: url("Imagem/Lunette_bufala_e_parma.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Ancho_ao_molho_de_vinho_com_risoto_de_alho_negro{
+    background-image: url("Imagem/Ancho_ao_molho_de_vinho_com_risoto_de_alho_negro.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Fim Imagens Cards */
 
 .Imagem img {
     max-width: 100%;
@@ -77,6 +113,7 @@ p {
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 6px;
 }
@@ -89,7 +126,7 @@ p {
 
 .card p {
     margin: 0;
-    font-size: 18px;
+    font-size: 14px;
     color: #ffffff;
 }
 
