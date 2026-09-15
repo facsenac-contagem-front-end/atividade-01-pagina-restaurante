@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(241, 247, 217);
+}
+h1{
+    background-color: #680404;
+    color: white;
+    width: 368px;
+}
+div{
+    width: 290px;
+    padding: 30px;
+    margin: 10px;
+    border: 3px #680404 solid;
+}
+span{
+    margin: 2px;
+    padding: 3px;
+    border: 2px black solid;
+}
+p{
+    font-family: "Playwrite BR Guides", cursive;
+}
