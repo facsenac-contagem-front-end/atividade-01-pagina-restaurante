@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,12 +33,14 @@ header {
     /* Cria um espaço de 15 pixels entre a imagem e o texto */
     gap: 10px;
 }
+
 .logo img {
     height: 70px;
     width: 90px;
     margin-left: 50px;
     margin-right: 20px;
 }
+
 .logo .logo-text {
     justify-content: center;
     color: #ffffff;
@@ -46,10 +48,12 @@ header {
     align-items: center;
 
 }
+
 .logo h2 {
     font-size: 24px;
     margin: 0;
 }
+
 .logo p {
     font-size: 14px;
     margin: 0;
@@ -85,12 +89,15 @@ nav a {
 
 /* PRATOS PRINCIPAIS */
 .aba_pratos_do_dia {
-    background-color: #AF6E28;
-    height: 60px;;
+    background: linear-gradient(to right, #9b6226 30%, #f37e00 );
+    height: 60px;
+    ;
     border-radius: 10px;
     margin: 20px;
 
     text-align: left;
+    box-shadow: 5px 5px 10px rgb(187, 187, 187);
+
 }
 
 .titulo h2 {
@@ -104,39 +111,72 @@ nav a {
     /* Alinha na vertical */
     height: 60px;
     width: 250px;
+
 }
+
 
 .pratos_do_dia {
     background-color: #ffffff;
     border-radius: 10px;
     border: 1px solid #AF6E28;
     margin: 20px;
-    height: 500px;
-    display: flex;
     padding: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
-.pratos_do_dia .card{
+.pratos_do_dia .card {
+    width: 30%;
     height: 350px;
-    width: 200px;
-    background-color: #672205;
+
+    background: linear-gradient(to bottom, #6b2000 30%, #af3501);
     color: white;
     border-radius: 20px;
-    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
+
+    box-shadow: 5px 5px 10px rgb(187, 187, 187);
+    overflow: hidden;
 }
-.pratos_do_dia img{
-    height: 180px;
-    width: 200px;
-    border-radius: 20px;
+
+.pratos_do_dia img {
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
 }
-.pratos_do_dia .botao{
-    height: 38px;
-    padding: 10px 20px;
+
+.pratos_do_dia h3 {
+    margin: 15px 10px 5px;
+}
+
+.pratos_do_dia p {
+    margin: 5px 20px;
+    text-align: center;
+}
+
+.pratos_do_dia .botao {
+    margin-top: auto;
+    margin-bottom: 20px;
+
+    padding: 10px 30px;
+
     border-radius: 10px;
     background-color: #AF6E28;
     color: #ffffff;
-    text-align: center;
-    
 
+    text-align: center;
+    gap: 20px;
+    /* Remove o sublinhado azul padrão */
+    text-decoration: none;
+    display: flex;
 }
+
+.pratos_do_dia .botao:hover{
+    background-color: #f37e00;
+}
+
